@@ -19,6 +19,7 @@ public class FF {
     public FF(Context ttContext){
         this.tContext = ttContext;
 
+        // cindy
         irdaService = tContext.getSystemService("irda");
         Class c = irdaService.getClass();
         Class p[] = { String.class };
